@@ -15,8 +15,12 @@ public class ForStar05 {
                 System.out.print(' ');
             }
 
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j <= 2* i -1; j++) {
                 System.out.print('*');
+            }
+
+            for (int j = number; j > i; j--){
+                System.out.print(' ');
             }
 
             System.out.println("");
