@@ -15,6 +15,6 @@ public class ForStar02 {
             }
             System.out.println("");
         }
-
+        scanner.close();
     }
 }
